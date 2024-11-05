@@ -1,4 +1,4 @@
-package com.tnt.scanner
+package com.tntmauritanie.scanner
 
 import android.app.Application
 import com.facebook.react.PackageList
