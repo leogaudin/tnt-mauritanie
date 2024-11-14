@@ -2,15 +2,15 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 export const languages = [
-	{ label: 'English', code: 'en' },
 	{ label: 'Français', code: 'fr' },
+	{ label: 'English', code: 'en' },
 ];
 
 i18n
 	.use(initReactI18next)
 	.init({
-		lng: 'en',
-		fallbackLng: 'en',
+		lng: 'fr',
+		fallbackLng: 'fr',
 		interpolation: {
 			escapeValue: false,
 		},

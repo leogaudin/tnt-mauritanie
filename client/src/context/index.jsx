@@ -5,14 +5,14 @@ import { computeInsights } from '../service/stats';
 const AppContext = createContext({
 	boxes: [],
 	insights: [],
-	language: 'en',
+	language: 'fr',
 	setLanguage: () => { },
 	loading: true,
 });
 
 export const AppProvider = ({ children }) => {
 	const [boxes, setBoxes] = useState(null);
-	const [language, setLanguage] = useState('en');
+	const [language, setLanguage] = useState('fr');
 	const [loading, setLoading] = useState(true);
 	const [insights, setInsights] = useState(null);
 
