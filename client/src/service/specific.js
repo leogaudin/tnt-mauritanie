@@ -59,4 +59,5 @@ export const excludedKeys = [
 	'statusChanges',
 	'progress',
 	'content',
+	'lastScan',
 ];
