@@ -39,7 +39,8 @@ export const boxFields = {
 // - UpdateGPS.jsx
 // - csv.js
 export const gpsUpdateFields = [
-	'schoolCode',
+	'school',
+	'wilaya',
 ]
 
 // Fields that characterize a school in the Delivery report
