@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 // MUST MATCH boxFields VARIABLE IN client/src/service/specific.js
-const boxFields = {
+export const boxFields = {
 	project: { type: String, required: true },
 	wilaya: { type: String, required: true },
 	moughataa: { type: String, required: true },
